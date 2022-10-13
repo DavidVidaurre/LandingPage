@@ -1,0 +1,64 @@
+.header-logo{
+    width: 300px;
+    height: 48px;
+}
+
+.header-title--container h1{
+    font-size: 3rem;
+}
+
+.header-title--container p{
+    font-size: 2rem;
+}
+
+.header-title--container .header-button{
+    width: 280px;
+    height: 50px;
+    top: 305px;
+    left: calc(50% - 140px);
+    font-size: 1.6rem;
+}
+
+.header-button span{
+    width: 14px;
+    height: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-exchange--container .backgroundImg {
+    width: 300px;
+    height: 300px
+}
+
+.main-exchange-title--container h2{
+    font-size: 3.2rem;
+}
+
+.main-exchange-title--container p{
+    font-size: 2rem;
+}
+
+.main-exchange-tables--container{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.product-cards--container{
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* .bitcoin-img--container{
+    background-image: url('../assets/images/bitcoinbaby2x.png');
+} */
+
+.plan-cards--slider{
+    justify-content: center;
+}
