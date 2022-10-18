@@ -25,6 +25,26 @@ html{
     scroll-behavior: smooth;
 }
 
+.btn-volver-arriba--container {
+    position: fixed;
+    right: -50px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .4s ease; 
+}
+
+.btn-item-arriba{
+    transform: rotate(-90deg);
+}
+
 .header--container{
     position: relative;
     display: flex;
